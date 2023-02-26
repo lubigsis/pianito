@@ -4,33 +4,75 @@
     box-sizing: border-box;
 }
 
-#pianoJS {
+.contenedor{
+    width: 80%;
+    padding: 70px 20px 30px 20px;
+    margin: auto;
+    border: 3px solid #000;
+    border-top: 16px solid #000;
+    border-radius: 12px;
+    margin-top: 5%;
+    background-color: #171717;
+}
+
+.contenedor #pianoJS {
     width: 100%;
     height: 200px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: black;
+    font-family: monospace;
 }
   
 .key {
     width: 14.2857%;
     height: 200px;
     float: left;
-    background: rgb(249, 222, 222);
-    border: 1px solid black;
+    background: #EEEEEE;
+    border: 1px solid #cfcdcd;
     text-align: center;
     line-height: 200px;
     cursor: pointer;
+    border-radius: 1px;
+    letter-spacing: 1px;
+    font-size: 23px;
+    color: #878686;
+}
+/*--------------------------------------------------------------------------------teclas--------------------------*/
+.do:hover {
+    background-color: rgb(248, 112, 133);
+    color: #fff;
 }
 
-.key:hover {
-    background-color: black;
-    color: white;
+.re:hover {
+    background-color: rgb(84, 200, 84);
+    color: #fff;
 }
 
+.mi:hover {
+    background-color: rgb(83, 83, 242);
+    color: #fff;
+}
+
+.fa:hover {
+    background-color: rgb(242, 242, 77);
+    color: #fff;
+}
+
+.sol:hover {
+    background-color: rgb(197, 69, 197);
+    color: #fff;
+}
+
+.la:hover {
+    background-color: rgb(239, 156, 3);
+    color: #fff;
+}
+
+.si:hover {
+    background-color: rgb(5, 242, 234);
+    color: #fff;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
 .pressed {
-    background-color: black;
+    background-color: rgb(151, 12, 237);
     color: white;
 }
