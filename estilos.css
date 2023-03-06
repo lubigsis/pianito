@@ -36,43 +36,45 @@
     color: #878686;
 }
 /*--------------------------------------------------------------------------------teclas--------------------------*/
+
 .do:hover {
-    background-color: rgb(248, 112, 133);
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
     color: #fff;
 }
 
 .re:hover {
-    background-color: rgb(84, 200, 84);
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     color: #fff;
 }
 
 .mi:hover {
-    background-color: rgb(83, 83, 242);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     color: #fff;
 }
 
 .fa:hover {
-    background-color: rgb(242, 242, 77);
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     color: #fff;
 }
 
 .sol:hover {
-    background-color: rgb(197, 69, 197);
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
     color: #fff;
 }
 
 .la:hover {
-    background-color: rgb(239, 156, 3);
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     color: #fff;
 }
 
 .si:hover {
-    background-color: rgb(5, 242, 234);
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
     color: #fff;
 }
+                                                  
 
-/*----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------JAVASCRIPT-----------------------------------------*/
 .pressed {
-    background-color: rgb(151, 12, 237);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     color: white;
 }

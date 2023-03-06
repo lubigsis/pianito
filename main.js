@@ -1,6 +1,26 @@
 window.onload = () => {
     
     let teclas = document.querySelectorAll('.key'); /*---1----busca todas las clases .key*/
+    let notesArray = ['Do','Re','Mi','Fa','Sol','La','Si'];
+
+  /*---------------------------------------------------------------------------------------------*/
+  document.onkeydown = (key) => {
+
+    if(key.key  <= 7 && key.key >= 1){ //valido por si se presionan otras teclas
+        let pressedKey = notesArray[key.key -1];
+        playNote(pressedKey);
+
+        let div = Array.from(teclas)[key.key -1]; //q' busque el elemento q' representa a la tecla q' se apretó
+        div.classList.add('pressed'); // CSS       
+
+    }
+  }
+  
+  document.onkeyup = () => {
+    teclas.forEach(function(key){
+        key.classList.remove('pressed');
+    })
+  }
   
 /*------------------------2----p/ detectar cuando el user presione las teclas y así reproducir el sonido----------------- */
     teclas.forEach(function(key) {
