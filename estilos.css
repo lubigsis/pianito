@@ -6,6 +6,8 @@
 
 .contenedor{
     width: 80%;
+    max-width: 1000px;
+    min-width: 500px;
     padding: 70px 20px 30px 20px;
     margin: auto;
     border: 3px solid #000;
@@ -13,6 +15,7 @@
     border-radius: 12px;
     margin-top: 5%;
     background-color: #171717;
+   /* border: 2px solid red;*/
 }
 
 .contenedor #pianoJS {
